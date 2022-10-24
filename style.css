@@ -1,0 +1,66 @@
+
+header {
+    width: 1440px;
+    height: 60px;
+    background-color: rgba(242, 238, 232, 100%);
+    }
+    
+.inline_block {
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+    }
+
+.logo {
+        float: left;
+        margin-left: 20px;
+    }
+    
+li {
+        display: inline-block;
+        padding: 0 10px 0 10px; 
+    }
+    
+section {
+        width: 1440px;
+        height: 950px;
+        }
+    
+aside {
+            width: 740px;
+            height: 950px;
+            background-color: rgba(242, 238, 232, 100%);
+            float: left;
+        }
+    
+.profile_pic {
+            width: 700px;
+            height: 950px;
+            background-color: rgba(73, 63, 48, 100%);
+            float: right;
+        }    
+
+.text_container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.center {
+text-align: center;
+}
+
+.AboutMe {
+    max-width: 400px;
+    text-align: center;
+    margin: 170px;
+}
+
+.Quote {
+    max-width: 400px;
+    text-align: center;
+    margin-left: 170px;
+}
+
+.BracketUpper {
+    margin-top: 150px;
+}
