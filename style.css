@@ -6,7 +6,7 @@ header {
     }
     
 .inline_block {
-        display: inline-block;
+        
         float: right;
         vertical-align: top;
     }
@@ -14,13 +14,20 @@ header {
 .logo {
         float: left;
         margin-left: 20px;
+        font-family: 'EB Garamond'; 
+        font-size: 16px;
     }
     
 li {
         display: inline-block;
         padding: 0 10px 0 10px; 
+        font-family: 'Source Sans Pro';
     }
     
+button {
+    display: inline-block;
+}    
+
 section {
         width: 1440px;
         height: 950px;
@@ -38,29 +45,58 @@ aside {
             height: 950px;
             background-color: rgba(73, 63, 48, 100%);
             float: right;
-        }    
+         }    
 
 .text_container {
-    text-align: center;
-    margin-top: 150px;
+   
+    margin-top: 70px;
 }
 
 .center {
-text-align: center;
+    text-align: center;
 }
 
 .AboutMe {
     max-width: 400px;
-    text-align: center;
-    margin: 170px;
+    text-align: left;
+    margin-left: 170px;
+    font-family: 'EB Garamond';
 }
 
 .Quote {
     max-width: 400px;
     text-align: center;
     margin-left: 170px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'EB Garamond';
+    font-style: italic;
+    color: rgba(73, 63, 48, 100%) ;
+}
+
+.JobTitle {
+    margin-top: 220px;
+    margin-bottom: 10px;
+    margin-left: 170px;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(73, 63, 48, 100%);
 }
 
 .BracketUpper {
     margin-top: 150px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family:'Ephesis';
+    font-size: 60px;
+    color: rgba(73, 63, 48, 50%);
+}
+
+.BracketLower {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Ephesis';
+    font-size: 60px;
+    color: rgba(73, 63, 48, 50%);
 }
